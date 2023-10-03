@@ -78,7 +78,7 @@ Implementation of the library within your own sketch is done in three parts:
 3. Continuously check if the CLI has any available (active) commands, and if so pass them into the library for evaluation, probably in the loop function: `prefCli.handleCommand(commandInstance);`
 
 Check out [this example sketch](examples/usbSerialCLI) of a basic implementation over USB serial:
-```
+```c++
 #include "Preferences.h"
 #include "SimpleCLI.h"
 #include "PreferencesCLI.h"
