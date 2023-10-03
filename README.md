@@ -37,7 +37,7 @@ Note that you do not need to specify each parameter name (such as namespace or k
 If the type is omitted then the library returns information about the type of the key instead of the value of the key.
 If the key does not exist then the library will notify you.
 
-getP/ref/erence,getp -namespace,ns <value> -k/ey <value> [-t/ype <value>]
+`getP/ref/erence,getp -namespace,ns <value> -k/ey <value> [-t/ype <value>]`
 - namespace (-ns): the namespace of the preference setting
 - key (-k): the string identifier of the preference
 - type (-t): the type of the data to read (Bool, U/Char, U/Int8, U/Int16, U/Int32, U/Int64, String, Float, Double, Bytes) (omit to return the type itself)
@@ -60,7 +60,7 @@ Note that you do not need to specify each parameter name (such as namespace or k
 If just the key is omitted then the entire namespace is cleared.
 If the key and namespace are both omitted then the entire NVS storage area is cleared (ESP32 only, may have unintended consequences).
 
-clearP/ref/erence,clearp [-namespace,ns <value>] [-k/ey <value>]
+`clearP/ref/erence,clearp [-namespace,ns <value>] [-k/ey <value>]`
 - namespace (-ns): the namespace of the preference setting (omit to clear entire NVS area)
 - key (-k): the string identifier of the preference (omit to clear entire namespace)
 
